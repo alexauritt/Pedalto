@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=900" />
     <title>DigArch</title>
+    <%= stylesheet_link_tag "digital_archives/documents" %>
     <link rel="stylesheet" type="text/css" media="screen,print" href="/DigArch_files/DigArch.css" />
     <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='DigArch_files/DigArchIE.css'/><![endif]-->
     <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
@@ -100,7 +101,7 @@
 
 
         <div style="height: 671px; width: 488px;  height: 671px; left: 211px; position: absolute; top: 180px; width: 488px; z-index: 1; " class="tinyText style_SkipStroke_1 stroke_0">
-          <%= image_tag @document.document_image.url %>
+          <%= image_tag @document.document_image.url, :class => "document_image" %>
           <!-- <img src="/DigArch_files/Scan%2024.jpg" alt="" style="border: none; height: 672px; width: 488px; " /> -->
             </div>
         
