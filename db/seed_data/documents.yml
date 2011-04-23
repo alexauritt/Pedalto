@@ -4,22 +4,22 @@ documents:
     title: B.Melange memo
     date: 2002
     department_id: 1
-    image_file_name: doc1_scan.jpg
+    document_image_file_name: doc1_scan.jpg
     
   - document_number: 576-PLD
     title: Potsandpans Correspondence
     date: 2003
     department_id: 1
-    image_file_name: doc2_scan_pots.jpg
+    document_image_file_name: doc2_scan_pots.jpg
     
   - document_number: GA-333331a
     title: Latapatkis Correspondence
     date: 2001
     department_id: 1
-    image_file_name: doc3_scan_lata.jpg
+    document_image_file_name: doc3_scan_lata.jpg
     
   - document_number: SKLFORPED
     title: Resource Packet
     date: 2000
     department_id: 1
-    image_file_name: doc4_scan_9.jpg    
+    document_image_file_name: doc4_scan_9.jpg    

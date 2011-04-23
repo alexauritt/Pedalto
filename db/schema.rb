@@ -25,9 +25,9 @@ ActiveRecord::Schema.define(:version => 20110423144214) do
     t.integer  "department_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "image_file_name"
-    t.string   "image_content_type"
-    t.integer  "image_file_size"
+    t.string   "document_image_file_name"
+    t.string   "document_image_content_type"
+    t.integer  "document_image_file_size"
   end
 
 end

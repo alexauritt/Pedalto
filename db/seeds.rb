@@ -8,8 +8,8 @@
 
 def load_document_images
   Document.all.each do |doc|
-    file_path = File.join(Rails.root, 'public', 'images', 'document_scans', doc.image_file_name)
-    doc.image = File.open(file_path)
+    file_path = File.join(Rails.root, 'public', 'images', 'document_scans', doc.document_image_file_name)
+    doc.document_image = File.open(file_path)
     doc.save!
   end
 end
