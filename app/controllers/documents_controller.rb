@@ -14,7 +14,8 @@ class DocumentsController < ApplicationController
   # GET /documents/1.xml
   def show
     @document = Document.find(params[:id])
-
+    @next_document = @document.next
+    @previous_document = @document.previous
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @document }
