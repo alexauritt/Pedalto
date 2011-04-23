@@ -1,4 +1,6 @@
 Pedalto::Application.routes.draw do
+  resources :documents
+
   resources :departments
 
   # The priority is based upon order of creation:
